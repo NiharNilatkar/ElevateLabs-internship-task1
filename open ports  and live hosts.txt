@@ -1,0 +1,34 @@
+local ip range: 192.168.29.0/24
+
+Live Hosts and Open Ports
+=========================
+
+1. Host: 192.168.29.1
+   Open Ports:
+     - 80/tcp     → HTTP
+     - 443/tcp    → HTTPS
+     - 1900/tcp   → UPNP
+     - 2869/tcp   → ICSLAP
+     - 7443/tcp   → OracleAS-HTTPS
+     - 8080/tcp   → HTTP (alt/proxy)
+     - 8200/tcp   → Teradataordbms
+     - 8443/tcp   → HTTPS-alt
+   Closed Ports:
+     - 8002/tcp   → Teradataordbms
+     - 8003/tcp   → Trivnet
+
+2. Host: 192.168.29.145
+   Open Ports:
+     - 8001/tcp   → VCOM-Tunnel
+     - 8002/tcp   → Teradataordbms
+     - 8080/tcp   → HTTP-Proxy
+
+3. Host: 192.168.29.147
+   Open Ports:
+     - 49152/tcp  → Unknown
+     - 62078/tcp  → iPhone-Sync
+
+4. Host: 192.168.29.198
+   Open Ports:
+     - 80/tcp     → HTTP
+     - 135/tcp    → Microsoft RPC
