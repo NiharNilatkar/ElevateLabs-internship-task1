@@ -1,0 +1,38 @@
+# Nmap 7.94SVN scan initiated Mon Jun 23 15:45:45 2025 as: nmap -sS -oN scan.txt 192.168.29.0/24
+Nmap scan report for reliance.reliance (192.168.29.1)
+Host is up (0.0048s latency).
+Not shown: 991 filtered tcp ports (no-response)
+PORT     STATE  SERVICE
+80/tcp   open   http
+443/tcp  open   https
+1900/tcp open   upnp
+2869/tcp closed icslap
+7443/tcp open   oracleas-https
+8002/tcp closed teradataordbms
+8080/tcp open   http-proxy
+8200/tcp closed trivnet1
+8443/tcp open   https-alt
+
+Nmap scan report for 192.168.29.145
+Host is up (0.0056s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE
+8001/tcp open  vcom-tunnel
+8002/tcp open  teradataordbms
+8080/tcp open  http-proxy
+
+Nmap scan report for 192.168.29.147
+Host is up (0.0085s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT      STATE SERVICE
+49152/tcp open  unknown
+62078/tcp open  iphone-sync
+
+Nmap scan report for 192.168.29.198
+Host is up (0.0062s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+80/tcp  open  http
+135/tcp open  msrpc
+
+# Nmap done at Mon Jun 23 15:45:54 2025 -- 256 IP addresses (4 hosts up) scanned in 9.63 seconds
